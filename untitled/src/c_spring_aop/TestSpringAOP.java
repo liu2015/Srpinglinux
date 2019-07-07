@@ -17,7 +17,7 @@ public class TestSpringAOP {
         String xpath="c_spring_aop/beans.xml";
         ApplicationContext applicationContext=new ClassPathXmlApplicationContext(xpath);
 
-        UserService userService= (UserService) applicationContext.getBean("userServiceId3");
+        UserService userService= (UserService) applicationContext.getBean("UserServiceidid");
         userService.addUser();
         userService.updateUser();
         userService.deleteUser();

@@ -1,26 +1,32 @@
 <component name="libraryTable">
-  <library name="aopalliance-1.0">
+  <library name="lib">
     <CLASSES>
       <root url="jar://$USER_HOME$/Springlib/lib/aopalliance-1.0.jar!/" />
+      <root url="jar://$USER_HOME$/Springlib/lib/com.springsource.org.aspectj.weaver-1.6.8.RELEASE.jar!/" />
       <root url="jar://$USER_HOME$/Springlib/lib/commons-logging-1.2.jar!/" />
       <root url="jar://$USER_HOME$/Springlib/lib/spring-aop-4.3.18.RELEASE.jar!/" />
       <root url="jar://$USER_HOME$/Springlib/lib/spring-aspects-4.3.18.RELEASE.jar!/" />
+      <root url="jar://$USER_HOME$/Springlib/lib/spring-context-4.3.18.RELEASE.jar!/" />
       <root url="jar://$USER_HOME$/Springlib/lib/spring-beans-4.3.18.RELEASE.jar!/" />
       <root url="jar://$USER_HOME$/Springlib/lib/spring-context-support-4.3.18.RELEASE.jar!/" />
-      <root url="jar://$USER_HOME$/Springlib/lib/spring-context-4.3.18.RELEASE.jar!/" />
       <root url="jar://$USER_HOME$/Springlib/lib/spring-core-4.3.18.RELEASE.jar!/" />
       <root url="jar://$USER_HOME$/Springlib/lib/spring-expression-4.3.18.RELEASE.jar!/" />
       <root url="jar://$USER_HOME$/Springlib/lib/spring-instrument-4.3.18.RELEASE.jar!/" />
       <root url="jar://$USER_HOME$/Springlib/lib/spring-instrument-tomcat-4.3.18.RELEASE.jar!/" />
-      <root url="jar://$USER_HOME$/Springlib/lib/spring-jms-4.3.18.RELEASE.jar!/" />
       <root url="jar://$USER_HOME$/Springlib/lib/spring-jdbc-4.3.18.RELEASE.jar!/" />
+      <root url="jar://$USER_HOME$/Springlib/lib/spring-jms-4.3.18.RELEASE.jar!/" />
       <root url="jar://$USER_HOME$/Springlib/lib/spring-messaging-4.3.18.RELEASE.jar!/" />
       <root url="jar://$USER_HOME$/Springlib/lib/spring-orm-4.3.18.RELEASE.jar!/" />
       <root url="jar://$USER_HOME$/Springlib/lib/spring-oxm-4.3.18.RELEASE.jar!/" />
       <root url="jar://$USER_HOME$/Springlib/lib/spring-test-4.3.18.RELEASE.jar!/" />
       <root url="jar://$USER_HOME$/Springlib/lib/spring-tx-4.3.18.RELEASE.jar!/" />
+      <root url="file://$USER_HOME$/Springlib/lib" />
     </CLASSES>
     <JAVADOC />
-    <SOURCES />
+    <SOURCES>
+      <root url="file://$USER_HOME$/Springlib/lib" />
+    </SOURCES>
+    <jarDirectory url="file://$USER_HOME$/Springlib/lib" recursive="false" />
+    <jarDirectory url="file://$USER_HOME$/Springlib/lib" recursive="false" type="SOURCES" />
   </library>
 </component>

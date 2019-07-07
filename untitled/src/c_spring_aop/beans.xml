@@ -8,19 +8,19 @@
         http://www.springframework.org/schema/aop/spring-aop.xsd">
 
 
-    <bean id="userServiceId3" class="c_spring_aop.UserServiceImpl"></bean>
+    <bean id="UserServiceidid" class="c_spring_aop.UserServiceImpl"></bean>
 
     <bean id="myAspectId" class="c_spring_aop.MyAspect"></bean>
 
-    <!--<aop:config proxy-target-class="true">-->
-            <!--<aop:pointcut  expression="execution(* c_spring_aop.*.*(..))" id="mypointcut"></aop:pointcut>-->
-            <!--<aop:advisor advice-ref="myAspectId" pointcut-ref="mypointcut"></aop:advisor>-->
-
-    <!--</aop:config>-->
     <aop:config proxy-target-class="true">
-        <aop:pointcut id="myPointCut" expression="execution(* c_spring_aop.*.*(..))"></aop:pointcut>
-        <aop:advisor advice-ref="myAspectId" pointcut-ref="myPointCut"></aop:advisor>
+            <aop:pointcut  expression="execution(* c_spring_aop.*.*(..))" id="mypointcut"></aop:pointcut>
+            <aop:advisor advice-ref="myAspectId" pointcut-ref="mypointcut"></aop:advisor>
+
     </aop:config>
+    <!--<aop:config proxy-target-class="true">-->
+        <!--<aop:pointcut id="myPointCut" expression="execution(* c_spring_aop.*.*(..))"></aop:pointcut>-->
+        <!--<aop:advisor advice-ref="myAspectId" pointcut-ref="myPointCut"></aop:advisor>-->
+    <!--</aop:config>-->
 
 
 </beans>
